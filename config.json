@@ -1,0 +1,13 @@
+{
+    "addOnName": "FragmentsAddOn",
+    "description": "Fragments Archicad Add-On.",
+    "defaultLanguage": "INT",
+    "languages": [
+        "INT"
+    ],
+    "version": "1.0.0",
+    "copyright": {
+        "name": "Bimdots",
+        "year": "2025-%Y"
+    }
+}

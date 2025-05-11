@@ -1,0 +1,4 @@
+Build/*
+APIDevKit-*/
+.DS_Store
+.vscode

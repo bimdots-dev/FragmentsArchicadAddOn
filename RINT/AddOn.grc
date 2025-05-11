@@ -1,0 +1,14 @@
+#include "ResourceIds.hpp"
+
+'STR#' ID_ADDON_INFO "Add-On Name and Description" {
+/* [  1] */        "Fragments Out"
+/* [  2] */        "Fragments Exporter Add-On"
+}
+
+'STR#' ID_ADDON_MENU "Menu" {
+/* [  1] */        "Dump Fragments File^E3^ES^EE^EI^ED^EL^EW^ET^EM^31000"
+}
+
+'STR#' ID_ADDON_STRS "Add-On Strings" {
+/* [  1] */        "Fragments File"
+}
