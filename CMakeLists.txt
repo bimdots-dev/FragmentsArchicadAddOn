@@ -22,3 +22,5 @@ set (AC_ADDON_FOR_DISTRIBUTION OFF CACHE BOOL "")
 set (AddOnSourcesFolder Source)
 set (AddOnResourcesFolder .)
 GenerateAddOnProject (CMakeTarget ${AC_VERSION} "${AC_API_DEVKIT_DIR}" ${AddOnSourcesFolder} ${AddOnResourcesFolder} ${AC_ADDON_LANGUAGE})
+
+target_include_directories (CMakeTarget PRIVATE Source/Schema)

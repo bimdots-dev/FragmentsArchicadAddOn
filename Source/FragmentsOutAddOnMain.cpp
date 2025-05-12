@@ -2,6 +2,7 @@
 
 #include <Model.hpp>
 #include <Sight.hpp>
+#include <IAttributeReader.hpp>
 #include <exp.h>
 
 #include "DebugUtils.hpp"
