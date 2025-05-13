@@ -46,7 +46,9 @@ static GSErrCode ExportFragmentsFromSaveAs (const API_IOParams* ioParams, Modele
         return APIERR_GENERAL;
     }
 
-    if (!ExportFragmentsFile (model, *ioParams->fileLoc)) {
+    FragmentsExportSettings settings;
+    settings.compressionMode = CompressionMode::Raw;
+    if (!ExportFragmentsFile (model, *ioParams->fileLoc, settings)) {
         return APIERR_GENERAL;
     }
 
