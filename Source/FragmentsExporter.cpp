@@ -81,6 +81,11 @@ struct hash<BodyVertex>
 
 }
 
+static double SRGBToLinear (double c)
+{
+    return (c < 0.04045) ? c * 0.0773993808 : pow (c * 0.9478672986 + 0.0521327014, 2.4);
+}
+
 static bool IsEmptyElement (const ModelerAPI::Element& element)
 {
     for (Int32 bodyIndex = 1; bodyIndex <= element.GetTessellatedBodyCount (); ++bodyIndex) {
@@ -180,9 +185,9 @@ public:
                 model.GetMaterial (materialIndex, &material);
                 ModelerAPI::Color color = material.GetSurfaceColor ();
                 Material fbMaterial (
-                    (uint8_t) (color.red * 255.0),
-                    (uint8_t) (color.green * 255.0),
-                    (uint8_t) (color.blue * 255.0),
+                    (uint8_t) (SRGBToLinear (color.red) * 255.0),
+                    (uint8_t) (SRGBToLinear (color.green) * 255.0),
+                    (uint8_t) (SRGBToLinear (color.blue) * 255.0),
                     (uint8_t) ((1.0 - material.GetTransparency ()) * 255.0),
                     RenderedFaces_TWO,
                     Stroke_DEFAULT
