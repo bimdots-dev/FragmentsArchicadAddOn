@@ -4,6 +4,10 @@
 
 Archicad Add-On developed by [Bimdots](https://www.bimdots.com) to export [Fragments (.frag)](https://github.com/ThatOpen/engine_fragment) files.
 
+## Installation
+
+You can download the Add-On from the [Bimdots store](https://bimdots.com/product/fragments-exporter). Please read the [installation guide](https://bimdots.com/help-center/add-on-installation-guide) for more instructions.
+
 ## Example
 
 [Click here](https://bimdots-dev.github.io/FragmentsArchicadExample) for a live example using an exported file. The example mode is provided to Bimdots by [Enzyme APD](https://www.weareenzyme.com).
