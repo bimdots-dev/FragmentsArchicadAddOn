@@ -2,7 +2,11 @@
 
 [![Build](https://github.com/bimdots-dev/FragmentsArchicadAddOn/actions/workflows/build.yml/badge.svg)](https://github.com/bimdots-dev/FragmentsArchicadAddOn/actions/workflows/build.yml)
 
-Archicad Add-On to export [Fragments (.frag)](https://github.com/ThatOpen/engine_fragment) files.
+Archicad Add-On developed by [Bimdots](https://www.bimdots.com) to export [Fragments (.frag)](https://github.com/ThatOpen/engine_fragment) files.
+
+## Example
+
+[Click here](https://bimdots-dev.github.io/FragmentsArchicadExample) for a live example using an exported file. The example mode is provided to Bimdots by [Enzyme APD](https://www.weareenzyme.com).
 
 ## Build instructions
 
