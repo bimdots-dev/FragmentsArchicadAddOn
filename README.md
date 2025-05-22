@@ -10,7 +10,7 @@ You can download the Add-On from the [Bimdots store](https://bimdots.com/product
 
 ## Example
 
-[Click here](https://bimdots-dev.github.io/FragmentsArchicadExample) for a live example using an exported file. The example mode is provided to Bimdots by [Enzyme APD](https://www.weareenzyme.com).
+[Click here](https://bimdots-dev.github.io/FragmentsArchicadExample) for a live example using an exported file. The example model is provided to Bimdots by [Enzyme APD](https://www.weareenzyme.com).
 
 ## Build instructions
 
